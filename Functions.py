@@ -20,3 +20,14 @@ def vartest():
 vartest()
 print(v) # v is 1 and not 2 because it was set locally in the function
 print(y) # y is still 1 because of the global keyword
+
+print("-------------------")
+
+# Functions with arguments
+
+def x20(number): # paramaters are in the brackets seperated by commas
+    # paramaters are inputted when the function is called
+    # 
+    return number * 20
+
+print(x20(0), x20(2), x20(500))
